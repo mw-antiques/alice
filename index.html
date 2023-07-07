@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>4lic3</title>
+  <title>Alice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -16,7 +16,21 @@
       font-family: 'Arial Black', sans-serif;
       font-size: 2rem;
       text-align: center;
-      background-color: #ffc0e5; /* Pink background color */
+      background: linear-gradient(45deg, #99329e, #8c64ce, #c54eab, #80ecff); 
+      background-size: 400% 400%;
+      animation: wave 10s infinite;
+    }
+    
+    @keyframes wave {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
     }
     
     .social-icons-container {
@@ -34,6 +48,7 @@
     .social-icons a {
       margin: 0 0.5rem;
       transition: transform 0.3s;
+      color: #fff;
     }
     
     .social-icons a:hover {
@@ -47,6 +62,7 @@
     h1 {
       margin-top: auto;
       margin-bottom: auto;
+      color: #fff;
     }
     
     @media (max-width: 768px) {
@@ -56,8 +72,8 @@
     }
   </style>
 </head>
-<body>
-  <h1>Hi, &#x1F609 am Alic3!</h1>
+<body> 
+  <h1>Hi, I'm Alice</h1>
   <div class="social-icons-container">
     <div class="social-icons">
       <a href="https://github.com/Ngugigenevive" target="_blank"><i class="fab fa-github"></i></a>
